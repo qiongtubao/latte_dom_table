@@ -1,0 +1,5 @@
+import<../head.lade>
+		div (controller:"demo")
+			table.table (table:"index" data:"table")
+
+	script [src:"./index.js"]

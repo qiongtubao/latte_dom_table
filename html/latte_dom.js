@@ -1,0 +1,1 @@
+../../../latte_module/latte_dom2/build/latte_dom.js
