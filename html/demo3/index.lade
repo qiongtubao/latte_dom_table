@@ -1,0 +1,10 @@
+import<../head.lade>
+		div (controller:"demo")
+			table.table (table:"auto" table-data:"table")
+				tr 
+					th (duplex:"name")
+					th (duplex:"user_login")
+			button (click:"click") "change"
+			
+					
+	script [src:"./index.js"]

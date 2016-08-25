@@ -1,0 +1,8 @@
+import<../head.lade>
+		div (controller:"demo")
+			table.table (table:"auto" table-data:"table")
+
+			button (click:"click") "change"
+			
+					
+	script [src:"./index.js"]

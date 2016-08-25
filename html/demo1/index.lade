@@ -1,5 +1,12 @@
 import<../head.lade>
 		div (controller:"demo")
-			table.table (table:"index" data:"table")
+			table.table (table:"auto" table-data:"table")
 
+			button (click:"clickA") "change"
+			button (click:"clickB") "get"
+			button (click:"clickC") "set"
+			button (click:"clickD") "push"
+			button (click:"clickE") "pop"
+			button (click:"clickF") "splice"
+			button (click:"clickG") "change"		
 	script [src:"./index.js"]
